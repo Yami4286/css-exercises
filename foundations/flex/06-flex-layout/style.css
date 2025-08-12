@@ -24,3 +24,54 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.footer ,.header{
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.left-links ,.right-links{
+  
+  display: flex;
+  gap:12px;
+padding:0;
+
+}
+
+ul.left-links{
+  margin-left: 12px;
+}
+ul.right-links{
+  margin-right: 12px;
+}
+ ul{
+    list-style-type: none;
+ }
+ a{
+  color: gray;
+   text-decoration: none;
+ }
+
+ container{
+  display: flex;
+  flex-direction: column;
+  /* height: -webkit-fill-available; */
+  /* justify-content: space-between */
+ }
+ .footer{
+  background-color: #D3D3D3;
+ }
+ .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+ }
+ body{
+  display: flex;
+  flex-direction: column;
+ }
